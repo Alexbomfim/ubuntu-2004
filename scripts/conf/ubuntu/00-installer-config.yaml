@@ -27,7 +27,7 @@ network:
       #
       # Configuração do Endereço IPv4 e CIDR Estático do Ubuntu Server
       addresses:
-      - 192.168.100.64
+      - 192.168.100.60
       #
       # Configuração do Endereço de Gateway IPv4 do Ubuntu Server
       gateway4: 192.168.100.1
@@ -35,14 +35,14 @@ network:
       # Configuração dos Endereços de DNS Server IPv4 do Ubuntu Server
       nameservers:
         addresses:
-        #- 172.16.1.20
-        - 172.16.1.254
+        #- 192.168.100.20
+        - 192.168.100.254
         #- 8.8.8.8
         #- 8.8.8.8
         #
         # Configuração do Nome de Pesquisa DNS do Ubuntu Server
         search:
-        - pti.intra
+        - n2sys.intra
         #
   # Configuração da versão do Protocolo Ethernet do Ubuntu Server
   version: 2
